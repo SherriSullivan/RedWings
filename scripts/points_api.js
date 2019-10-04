@@ -14,7 +14,7 @@ function getPoints() {
 	.then((results) => results.json())
 	.then((data) => {
 		for (let i = 0, l = data.records.length; i < l; i++) { // division level
-			for (let j = 0, t = data.records[i].teamRecords.length; i < t; j++) { //get team records
+			for (let j = 0, t = data.records[i].teamRecords.length; j < t; j++) { //get team records
 				teamid = data.records[i].teamRecords[j].team.id;
 				teampoints = data.records[i].teamRecords[j].points;
 				assignPoints(teamid, teampoints);
