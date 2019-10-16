@@ -27,7 +27,7 @@ article h2 {
   text-align: center;
 }
 
-article h3 {
+.flip-back h2 {
   color: #f0f6fc;
   color: var(--ice);
   padding: 10px 5px;
@@ -57,8 +57,10 @@ article p {
   box-shadow: 0 4px 8px 0 var(--grey);
 }
 
+.flip:hover .flip-inner,
 .flip:active .flip-inner,
-.flip:focus .flip-inner {
+.flip:focus .flip-inner 
+{
   transform: rotateY(180deg);
 }
 

@@ -132,7 +132,8 @@ function makeCards() {
     for (var i = 0, l = RWroster.length; i < l; i++) {
         var card = document.createElement("article");
         card.setAttribute("id", RWroster[i].ID);
-        card.setAttribute("class", "flip");
+        card.classList.add(RWroster[i].type);
+        card.classList.add("flip");
         card.setAttribute("tabindex", 0);
 
         var flip_inner = document.createElement("div");
@@ -168,7 +169,7 @@ function makeCards() {
                                     "<p>Plus / Minus: " + RWroster[i].stats.plusMinus + "</p>" +
                                     "<p>Hits: " + RWroster[i].stats.hits + "</p>";
         }
-        flip_back.innerHTML += "<h3>" + RWroster[i].name + "</h3>" +
+        flip_back.innerHTML += "<h2>" + RWroster[i].name + "</h2>" +
                                "<p>Age: " + RWroster[i].age + "</p>" +
                                "<p>Ht: " + RWroster[i].ht + ", Wt: " + RWroster[i].wt + "</p>" +
                                "<p>Shoots: " + RWroster[i].shoots + "</p>" +

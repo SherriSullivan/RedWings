@@ -67,7 +67,7 @@ function teamAbbr(id) {
 //https://statsapi.web.nhl.com/api/v1/schedule?teamId=17&season=20182019
 
 function getGames() {
-	fetch('https://statsapi.web.nhl.com/api/v1/schedule?teamId=17&startDate=2019-09-01&endDate=2020-04-30')
+	fetch('https://statsapi.web.nhl.com/api/v1/schedule?teamId=17&season=20192020')
 	.then((results) => results.json())
 	.then((data) => {
 		//console.log(data);
@@ -84,6 +84,7 @@ function getGames() {
 		for (let i = 0, l = data.dates.length; i < l; i++) {
 			gameNo++;
 			let gamePk = data.dates[i].games[0].gamePk;
+			let finished = data.dates[i].games[0].status.detailedState === 'Final' ? true : false;
 			let gameDate = data.dates[i].date;
 			let date = new Date(gameDate);
 
@@ -114,12 +115,12 @@ function getGames() {
 				oppScore = homeScore;
 			}
 
-			if ( detScore !== 0 && oppScore !== 0 ) { 
+			if ( finished ) { 
 				gameResult = detScore > oppScore ? 'win' : 'loss';
 				if ( detOtl > prevOtl ) {
 					gameResult = 'otl';
-					prevOtl++;
 				}
+				prevOtl = detOtl;
 				detRecord = `${detWins} - ${detLoss} - ${detOtl}`;
 				detPoints = (detWins * 2) + detOtl;
 			}
@@ -132,6 +133,7 @@ function getGames() {
 
 			games.push({
 				gameNo: (gameNo !== 0) ? gameNo : 'Pre',
+				finished: finished,
 				gameDate: gameDate,
 				awayTeam: awayTeam,
 				awayTeamAbbr: awayTeamAbbr,

@@ -31,9 +31,13 @@ function processGames() {
 		let row = document.createElement("tr");
 		row.setAttribute("id",games[i].gameDate);
 
+		if (games[i].gameNo === 'Pre') {
+			row.classList.add('pre');
+		}
+
 		// if opponenet is TOR set row class to 'tor'
 		if (games[i].homeTeamAbbr === "TOR" || games[i].awayTeamAbbr === "TOR") {
-			row.setAttribute("class", "tor");
+			row.classList.add('tor');
 		}
 		table.appendChild(row);
 
@@ -80,8 +84,8 @@ function processGames() {
 		row.appendChild(points);
 
 		// display according to past or future game and screen size
-		// if game is in the past
-		if ( games[i].gameDate < dayID ) {
+		// if game is finished
+		if ( games[i].finished ) {
 			// remove opacity
 			row.style.removeProperty("opacity");
 
