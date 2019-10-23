@@ -21,6 +21,7 @@ function getPoints() {
 			}
 		}
 		setPoints();
+		setMeter();
 	});
 }
 
@@ -77,4 +78,19 @@ function setPoints() {
 		document.getElementById(key).setAttribute('max', maxPts);
 	}
 	sortTable('pointsTable', 'desc', 1);
+}
+
+function setMeter() {
+    let is_chrome = navigator.userAgent.indexOf('Chrome') > -1;
+    let is_explorer = navigator.userAgent.indexOf('MSIE') > -1;
+    let is_firefox = navigator.userAgent.indexOf('Firefox') > -1;
+    let is_safari = navigator.userAgent.indexOf("Safari") > -1;
+    let is_opera = navigator.userAgent.toLowerCase().indexOf("op") > -1;
+    if ((is_chrome) && (is_safari)) { is_safari = false; }
+    if ((is_chrome) && (is_opera)) { is_chrome = false; }
+    if ((is_safari) && (!is_chrome)) {
+        for (let i = 0; i < 31; i++) {
+            document.getElementsByTagName('meter')[i].setAttribute('class', 'safari');
+        }
+    }
 }
