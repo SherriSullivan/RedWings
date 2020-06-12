@@ -13,8 +13,14 @@ function getGame() {
 	let nextVenue;
 
 	fetch('https://statsapi.web.nhl.com/api/v1/teams/17?expand=team.schedule.next&season=20192020')
-	.then((results) => results.json())
-	.then((next) => {
+	.then(results => {
+		if (results.ok) {
+			return results.json();
+		} else {
+			return Promise.reject('no game date available');
+		}
+	})
+	.then(next => {
 		nextDate = next.teams[0].nextGameSchedule.dates[0].date.split('-');
 		year = nextDate[0];
 		mo = nextDate[1] - 1;
@@ -48,7 +54,8 @@ function getGame() {
 		document.querySelector('#nextAwayTeam').innerHTML = nextAwayTeam;
 		document.querySelector('#nextARecord').innerHTML = nextAWins + ' - ' + nextALoss + ' - ' + nextAOtl;
 		document.querySelector('#nextVenue').innerHTML = nextVenue;
-	});
+	})
+	.catch(error => console.log('no next game date available'));
 
 	fetch('https://statsapi.web.nhl.com/api/v1/teams/17?expand=team.schedule.previous&season=20192020')
 	.then((results) => results.json())
@@ -85,8 +92,8 @@ function getGame() {
 		document.querySelector('#prevAwayTeam').innerHTML = prevAwayTeam + ': ' + prevAwayScore;
 		document.querySelector('#prevARecord').innerHTML = prevAWins + ' - ' + prevALoss + ' - ' + prevAOtl;
 		document.querySelector('#prevVenue').innerHTML = prevVenue;
-		console.log(prevGameDate);
-		console.log(prevHomeTeam + ': ' + prevHomeScore);
-		console.log(prevAwayTeam + ': ' + prevAwayScore);
+		// console.log(prevGameDate);
+		// console.log(prevHomeTeam + ': ' + prevHomeScore);
+		// console.log(prevAwayTeam + ': ' + prevAwayScore);
 	});
 }
