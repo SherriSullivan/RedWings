@@ -1,0 +1,117 @@
+/**** Specific styles for 2020 Red Wings index page ****/
+
+
+nav {
+    grid-row: 3;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.score_box {
+    width: 90%;
+    background: #d2d2d2;
+    background: var(--grey);
+    border: 3px solid #383838;
+    border: 3px solid var(--puck);
+}
+
+.score_box h3 {
+    font-size: 1.75rem;
+    font-weight: bold;
+    color: #383838;
+    color: var(--puck);
+}
+
+.score_box h3:first-of-type {
+    padding-top: 20px;
+}
+
+h4 {
+    font-size: 1.5rem;
+    text-align: right;
+    padding-top: 10px;
+    padding-right: 15px;
+    color: #7a8dd0;
+    color: var(--blueline);
+}
+
+h6 {
+    font-size: 1.2rem;
+    padding: 10px;
+    color: #383838;
+    color: var(--puck);
+    text-align: center;
+}
+
+p[id$='GameDate'] {
+    text-align: left;
+    background: #383838;
+    background: var(--puck);
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+}
+
+p[id$='Record'] {
+    text-align: right;
+    padding-right: 7%;
+    color: #383838;
+    color: var(--puck);
+    font-size: 1rem;
+}
+
+@media screen and (min-width: 600px) {
+    main {
+        flex-direction: row;
+        grid-column: 1 / -2;
+    }
+
+    .mainnav {
+        grid-column: -2;
+        grid-row: 2;
+        justify-self: end;
+        background: inherit;
+    }
+
+    .mainnav ul {
+        grid-template-columns: auto;
+    }
+
+    .mainnav li {
+        width: 200px;
+        border-top: none;
+        border-right: none;
+        border-bottom: 2px solid var(--puck);
+        border-left: 3px solid var(--puck);
+        margin: 10px 0;
+    }
+
+    .mainnav li:hover,
+    .mainnav li:focus {
+        background: radial-gradient(##f0f6fc 60%, #7a8dd0);
+        background: radial-gradient(var(--ice) 60%, var(--blueline));
+        border-top-right-radius: 15%;
+    }
+
+    .score_box {
+        width: 50vw;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    main {
+        grid-column: 1 / -2;
+    }
+
+    .score_box {
+        transform: skew(-5deg);
+        width: 45%;
+    }
+}

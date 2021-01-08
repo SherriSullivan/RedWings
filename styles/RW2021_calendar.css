@@ -1,0 +1,150 @@
+/**** Calendar Styles for 2020 Red Wings site ****/
+
+/* calendar navigation  */
+.container {
+  width: 100%;
+}
+
+.monthnav {
+  float: right;
+}
+
+.monthnav ul {
+  list-style: none;
+  padding: 0;
+  margin-right: 50px;
+  width: 100%;
+}
+
+.monthnav li {
+  float: left;
+  text-align: center;
+  border: 2px solid var(--puck);
+  border-bottom: none;
+  transform: skew(-5deg);
+  background: var(--ice);
+  color: var(--puck);
+  font-weight: bold;
+  font-size: smaller;
+  padding: 5px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.monthnav a {
+  display: block;
+}
+
+.monthnav li:active,
+.monthtab.active {
+  background: #d2d2d2;
+  background: var(--grey);
+}
+
+
+/* calendar layout with grid */
+
+/* month name banner */
+.month {
+  counter-reset: datecounter;
+  display: none;  /*only show active calendar - set with js */
+  margin: 0 auto;
+  text-align: center;
+  border: 2px solid #383838;
+  border: 2px solid var(--puck);
+}
+
+.month h2 {
+  background: var(--puck);
+  color: var(--ice);
+  font-weight: bold;
+  margin: 0 auto;
+  line-height: 1.5em;
+}
+
+.dates {
+  display: -ms-grid;
+  -ms-grid-columns: (14.28%,14.28%,14.28%,14.28%,14.28%,14.28%,14.28%);
+
+  display: grid;
+  grid-template-columns: repeat(7, 14.28%);
+  margin: auto;
+}
+
+.dates > div {
+  background: var(--ice);
+  height: 125px;
+  box-shadow: 0 0 0 2px var(--grey);
+  font-size: 3vw;
+}
+
+div > .date {
+  background: var(--puck);
+  color: #f0f6fc;
+  color: var(--ice);
+  width: 25px;
+  margin: 1px;
+}
+
+div > .date::before {
+  content: counter(datecounter);
+  counter-increment: datecounter;
+}
+
+div + p {
+  padding-top: 20px;
+}
+
+/* p.points {
+  display: none;
+} */
+
+.win::before, .win::after {
+  content: '';
+}
+
+.win .score::before {
+  content: '*WIN*\A';
+  white-space: pre;
+  font-weight: bold;
+}
+
+.loss .score::before {
+  content: 'loss:\A';
+  white-space: pre;
+  font-size: smaller;
+}
+
+.otl .score::before {
+  content: 'otl:\A';
+  white-space: pre;
+  font-size: smaller;
+}
+
+.home {
+  border: 1px solid var(--WingsRed);
+  border-bottom: 15px solid #c8102e;
+  border-bottom: 15px solid var(--WingsRed);
+  border-radius: 20%;
+}
+
+.away {
+  border: 1px solid var(--blueline);
+  border-bottom: 15px solid #7a8dd0;
+  border-bottom: 15px solid var(--blueline);
+  border-radius: 20%;
+}
+
+@media only screen and (min-width: 600px) {
+  .monthnav li {
+    font-size: 2.5vw;
+  }
+  .dates > div {
+    font-size: 1rem;
+  }
+}
+
+/* carousel */
+.container {
+  clear: both;
+}

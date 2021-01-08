@@ -1,4 +1,6 @@
-/**** Gamelog Scripts for 2021 Red Wings site ****/
+// jshint esversion: 6
+
+/**** Gamelog Scripts for 2020 Red Wings site ****/
 /*** pulls info from getGames_api.js ***/
 
 // old fashioned async/await 

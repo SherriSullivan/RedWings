@@ -1,9 +1,11 @@
-/**** createTable Script for 2021 Red Wings site ****/
+// jshint esversion: 6
+
+/**** createTable Script for 2020 Red Wings site ****/
 /*** specific to prevSeasons because of row:Stanley before the meat of the table
 /*** feeds prevSeasons ***/
 
 window.onload = function () { years.reset(); };
-window.onload = function() { createTable(2020); };
+window.onload = function() { createTable(2019); };
 
 // The table looks like this:
 //  rows are [i], columns are [j]
@@ -32,7 +34,7 @@ function createTable(year) {
     thr.appendChild(th1);
 
     th2 = document.createElement("th");
-    th2.innerText = "Points";
+    th2.innerText = "prevSeasons";
     thr.appendChild(th2);
 
     thead.appendChild(thr);
@@ -86,7 +88,7 @@ function sortTable(tbl, dir, year) {
     let table = document.querySelector('#' + tbl);
 
     // change year to column number
-    n = 2021 - year;
+    n = 2020 - year;
 
     // switching is true until the table is completely sorted
     switching = true;

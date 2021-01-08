@@ -1,4 +1,6 @@
-/**** getGames Scripts for 2021 Red Wings site ****/
+// jshint esversion: 6
+
+/**** getGames Scripts for 2020 Red Wings site ****/
 /*** feeds calendar and gamelog ***/
 
 window.onload = getGames;
@@ -6,7 +8,8 @@ window.onload = getGames;
 //create an array of game info to be accessed by gameLog and calendar
 const games = [];
 
-//get today's date - format to match gameDate from api
+//get today's date - format to match gameDate from api and format in my preferred format
+//const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
 const d = new Date();
 const yyyy = d.getFullYear();
 let m = d.getMonth();
@@ -15,6 +18,7 @@ let mm = m + 1 < 10 ? '0' + (m + 1) : (m + 1);
 let dd = d.getDate();
 dd = dd < 10 ? '0' + dd : dd;
 const dayID = `${yyyy}-${mm}-${dd}`;
+//const formDate = `${month} ${dd}, ${yyyy}`;
 
 //has getGames() finished yet?
 let done = false;
@@ -56,9 +60,14 @@ function teamAbbr(id) {
 	}
 }
 
+//Regular Season
+//https://statsapi.web.nhl.com/api/v1/schedule?teamId=17&startDate=2018-10-01&endDate=2019-04-10
+
+//Pre- and Regular Season
+//https://statsapi.web.nhl.com/api/v1/schedule?teamId=17&season=20182019
 
 function getGames() {
-	fetch('https://statsapi.web.nhl.com/api/v1/schedule?teamId=17&season=20202021')
+	fetch('https://statsapi.web.nhl.com/api/v1/schedule?teamId=17&season=20192020')
 	.then((results) => results.json())
 	.then((data) => {
 		//console.log(data);

@@ -1,4 +1,6 @@
-/**** Points Scripts for 2021 Red Wings site ****/
+// jshint esversion: 6
+
+/**** Points Scripts for 2020 Red Wings site ****/
 /*** feeds standings ***/
 
 window.onload = getPoints;
@@ -8,7 +10,7 @@ let teamid, teampoints, maxPts = 20, minPts = 10;
 let points = {};
 
 function getPoints() {
-	fetch('https://statsapi.web.nhl.com/api/v1/standings?season=20202021')
+	fetch('https://statsapi.web.nhl.com/api/v1/standings?season=20192020')
 	.then((results) => results.json())
 	.then((data) => {
 		for (let i = 0, l = data.records.length; i < l; i++) { // division level
