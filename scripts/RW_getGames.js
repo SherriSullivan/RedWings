@@ -8,7 +8,6 @@ const games = [];
 const d = new Date();
 const yyyy = d.getFullYear();
 let m = d.getMonth();
-//let month = months[m];
 let mm = m + 1 < 10 ? '0' + (m + 1) : (m + 1);
 let dd = d.getDate();
 dd = dd < 10 ? '0' + dd : dd;
@@ -55,7 +54,7 @@ function teamAbbr(id) {
 
 
 function getGames(callback) {
-	fetch('https://statsapi.web.nhl.com/api/v1/schedule?teamId=17&season=20212022')
+	fetch('https://statsapi.web.nhl.com/api/v1/schedule?teamId=17&season=20222023')
 	.then((results) => results.json())
 	.then((data) => {
 		let gameNo = 0;

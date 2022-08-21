@@ -1,4 +1,4 @@
-/**** Calendar Scripts for 2022 Red Wings site ****/
+/**** Calendar Scripts for 2023 Red Wings site ****/
 /*** and call getGames.js for game info ***/
 
 window.addEventListener('load', getGames(processGames));
@@ -9,11 +9,12 @@ function startMonth() {
 
 	// get current month
 	let month = new Date().getMonth();
+	console.log(month);
 
-	// if it is out of season open to September
+	// if it is out of season, open to October (main season)
 	// September (training camp) through May (playoffs) = hockey season
-	if (month > 4 && month < 8) {
-		month = 8;
+	if (month < 8 && month > 4) {
+		month = 9;
 	}
 
 	// get the tab number from the month number
@@ -37,9 +38,9 @@ function startMonth() {
 }
 
 function showMonth(t) {
-	// create an array 'season' containing all the months
+	// create an array 'season' containing all the month divs in RW_calendar.html
 	let season = document.querySelectorAll(".month");
-	// create an array 'tabs' of the navigation tabs
+	// create an array 'tabs' of the navigation tabs in RW_calendar.html
 	let tabs = document.querySelectorAll(".monthtab");
 
 	// set display to none and no active tabs to start

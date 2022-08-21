@@ -55,6 +55,7 @@
 }
 
 body {
+  width: 100vw;
   background: #383838;
   background: var(--puck);
   font-family: 'Montserrat', sans-serif;
