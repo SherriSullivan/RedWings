@@ -1,0 +1,15 @@
+/**** Previous Seasons Styles for 2020 Red Wings site ****/
+
+/* for previous season select menu */
+select {
+  position: relative;
+  top: -5px;
+  background: #f0f6fc;
+  background: var(--ice);
+  color: #383838;
+  color: var(--puck);
+  border: 2px groove #383838;
+  border: 2px groove var(--puck);
+  padding: 5px 15px;
+  font-size: 1.25rem;
+}

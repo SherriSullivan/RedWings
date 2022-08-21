@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="NHL Standings for the 2022 Season">
+
+    <title>Red Wings 2022 Standings</title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="styles/RW_style.css">
+    <link rel="stylesheet" href="styles/RW_standings.css">
+
+    <link rel="shortcut icon" href="favicon.png">
+</head>
+
+<body>
+    <div id="home"><a href="../index.html"><img src="../home.png" alt="tau image"></a></div>
+    <div class="wrapper">
+        <header>
+            <h1>2021/2022<br>Standings</h1>
+            <section id="team">
+                <a href="index.html">
+                    <h2>Detroit</h2>
+                    <h3>Red Wings</h3>
+                </a>
+            </section>
+        </header>
+        <nav class="mainnav">
+            <ul>
+                <li><a href="RW_calendar.html">Calendar</a></li>
+                <li><a href="RW_roster.html">Roster</a></li>
+                <li><a href="RW_gamelog.html">Game Log</a></li>
+                <li class="active"><a href="RW_standings.html">Standings</a></li>
+                <li><a href="RW_seasons.html">Previous Seasons</a></li>
+                <li><a href="RW_hockey.html">Hockey Pong</a></li>
+            </ul>
+        </nav>
+        <main>
+            <table id="pointsTable">
+                <tbody>
+                    <tr>
+                        <th onClick="sortTable('pointsTable', 'asc', 0)">Team</th>
+                        <th onClick="sortTable('pointsTable', 'asc', 1)">Points</th>
+                    </tr>
+                    <tr id="ana">
+                        <td>Anaheim Ducks</td>
+                        <td><meter id="ana_pts" value="0" min="-5" max="40"></meter></td>
+                    </tr>
+                    <tr id="ari">
+                        <td>Arizona Coyotes</td>
+                        <td><meter id="ari_pts" value="0" min="-5" max="40"></meter></td>
+                    </tr>
+                    <tr id="bos">
+                        <td>Boston Bruins</td>
+                        <td><meter id="bos_pts" value="0" min="-5" max="40"></meter></td>
+                    </tr>
+                    <tr id="buf">
+                        <td>Buffalo Sabres</td>
+                        <td><meter id="buf_pts" value="0" min="-5" max="40"></meter></td>
+                    </tr>
+                    <tr id="cgy">
+                        <td>Calgary Flames</td>
+                        <td><meter id="cgy_pts" value="0" min="-5" max="40"></meter></td>
+                    </tr>
+                    <tr id="car">
+                        <td>Carolina Hurricanes</td>
+                        <td><meter id="car_pts" value="0" min="-5" max="40"></meter></td>
+                    </tr>
+                    <tr id="chi">
+                        <td>Chicago Blackhawks</td>
+                        <td><meter id="chi_pts" value="0" min="-5" max="40"></meter></td>
+                    </tr>
+                    <tr id="col">
+                        <td>Colorado Avalanche</td>
+                        <td><meter id="col_pts" value="0" min="-5" max="40"></meter></td>
+                    </tr>
+                    <tr id="cbj">
+                        <td>Columbus Blue Jackets</td>
+                        <td><meter id="cbj_pts" value="0" min="-5" max="40"></meter></td>
+                    </tr>
+                    <tr id="dal">
+                        <td>Dallas Stars</td>
+                        <td><meter id="dal_pts" value="0" min="-5" max="40"></meter></td>
+                    </tr>
+                    <tr id="det">
+                        <td>Detroit Red Wings</td>
+                        <td><meter id="det_pts" value="0" class="wings" min="-5" max="40"></meter></td>
+                    </tr>
+                    <tr id="edm">
+                        <td>Edmonton Oilers</td>
+                        <td><meter id="edm_pts" value="0" min="-5" max="40"></meter></td>
+                    </tr>
+                    <tr id="fla">
+                        <td>Florida Panthers</td>
+                        <td><meter id="fla_pts" value="0" min="-5" max="40"></meter></td>
+                    </tr>
+                    <tr id="lak">
+                        <td>Los Angeles Kings</td>
+                        <td><meter id="lak_pts" value="0" min="-5" max="40"></meter></td>
+                    </tr>
+                    <tr id="min">
+                        <td>Minnesota Wild</td>
+                        <td><meter id="min_pts" value="0" min="-5" max="40"></meter></td>
+                    </tr>
+                    <tr id="mtl">
+                        <td>Montreal Canadiens</td>
+                        <td><meter id="mtl_pts" value="0" min="-5" max="40"></meter></td>
+                    </tr>
+                    <tr id="nsh">
+                        <td>Nashville Predators</td>
+                        <td><meter id="nsh_pts" value="0" min="-5" max="40"></meter></td>
+                    </tr>
+                    <tr id="njd">
+                        <td>New Jersey Devils</td>
+                        <td><meter id="njd_pts" value="0" min="-5" max="40"></meter></td>
+                    </tr>
+                    <tr id="nyi">
+                        <td>New York Islanders</td>
+                        <td><meter id="nyi_pts" value="0" min="-5" max="40"></meter></td>
+                    </tr>
+                    <tr id="nyr">
+                        <td>New York Rangers</td>
+                        <td><meter id="nyr_pts" value="0" min="-5" max="40"></meter></td>
+                    </tr>
+                    <tr id="ott">
+                        <td>Ottawa Senators</td>
+                        <td><meter id="ott_pts" value="0" min="-5" max="40"></meter></td>
+                    </tr>
+                    <tr id="phi">
+                        <td>Philadelphia Flyers</td>
+                        <td><meter id="phi_pts" value="0" min="-5" max="40"></meter></td>
+                    </tr>
+                    <tr id="pit">
+                        <td>Pittsburgh Penguins</td>
+                        <td><meter id="pit_pts" value="0" min="-5" max="40"></meter></td>
+                    </tr>
+                    <tr id="sea">
+                        <td>Seattle Kraken</td>
+                        <td><meter id="sea_pts" value="0" min="-5" max="40"></meter></td>
+                    </tr>
+                    <tr id="sjs">
+                        <td>San Jose Sharks</td>
+                        <td><meter id="sjs_pts" value="0" min="-5" max="40"></meter></td>
+                    </tr>
+                    <tr id="stl">
+                        <td>St. Louis Blues</td>
+                        <td><meter id="stl_pts" value="0" min="-5" max="40"></meter></td>
+                    </tr>
+                    <tr id="tbl">
+                        <td>Tampa Bay Lightning</td>
+                        <td><meter id="tbl_pts" value="0" min="-5" max="40"></meter></td>
+                    </tr>
+                    <tr id="tor">
+                        <td>Toronto Maple Leafs</td>
+                        <td><meter id="tor_pts" value="0" class="leafs" min="-5" max="40"></meter></td>
+                    </tr>
+                    <tr id="van">
+                        <td>Vancouver Canucks</td>
+                        <td><meter id="van_pts" value="0" min="-5" max="40"></meter></td>
+                    </tr>
+                    <tr id="vgk">
+                        <td>Vegas Golden Knights</td>
+                        <td><meter id="vgk_pts" value="0" min="-5" max="40"></meter></td>
+                    </tr>
+                    <tr id="wsh">
+                        <td>Washington Capitals</td>
+                        <td><meter id="wsh_pts" value="0" min="-5" max="40"></meter></td>
+                    </tr>
+                    <tr id="wpg">
+                        <td>Winnipeg Jets</td>
+                        <td><meter id="wpg_pts" value="0" min="-5" max="40"></meter></td>
+                    </tr>
+                </tbody>
+            </table>
+        </main>
+        <footer>
+            <h2 id="RW_mainsite">
+                <a href="https://www.nhl.com/redwings" target="_blank" rel="noreferrer">Official NHL<br />Red Wings
+                    site</a>
+            </h2>
+            <div id="contact_info">
+                <h3>Sherri Sullivan</h3>
+                <p><a href="mailto:sherril.sulli@gmail.com?Subject=RW Standings">sherril.sulli@gmail.com</a></p>
+                <p><a href="https://www.linkedin.com/in/sherrisullivan/">LinkedIn</a></p>
+                <p>&copy; 2021</p>
+            </div>
+        </footer>
+    </div> <!-- end wrapper -->
+
+    <!-- scripts -->
+    <script src="scripts/RW_getPoints.js"></script>
+    <script src="scripts/RW_sortTable.js"></script>
+    
+</body>
+
+</html>

@@ -1,0 +1,39 @@
+/**** Styles for 2022 Red Wings Standings ****/
+
+th {
+	cursor: pointer;
+}
+
+tr:nth-child(17) {
+	border-bottom: 2px solid #383838;
+	border-bottom: 2px solid var(--puck);
+}
+
+/* meter styles for current season points */
+/*for Chrome*/
+meter {
+  margin: auto; /*to position in td*/
+  -webkit-appearance: meter; 
+}
+
+/*for Safari*/
+meter.safari {
+  -webkit-appearance: none; 
+}
+ 
+/*meter FireFox*/
+meter::-moz-meter-bar {background: var(--blueline);}  /* color of progress bar*/
+/*meter.wings::-moz-meter-bar {background: #718DD0;}
+meter.leafs::-moz-meter-bar {background: #003D7D;}*/
+
+/*meter Chrome and Safari*/
+meter::-webkit-meter-bar {background: none;}  /*clear native style*/
+meter::-webkit-meter-bar {background: var(--grey);} /*background color of bar*/
+meter::-webkit-meter-optimum-value {background: var(--blueline);} /*color of progress bar*/
+/*meter#det_pts::-webkit-meter-optimum-value {background: #718DD0;}
+meter#tor_pts::-webkit-meter-optimum-value {background: #003D7D;}*/
+
+/*without extensions*/
+meter::meter-bar {background: #7a8dd0; background: var(--blueline);}
+/*meter.wings::meter-bar {background: #c8102e;}
+meter.leafs::meter-bar {background: #003D7d;}*/

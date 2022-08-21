@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Game Log for Red Wings 2021 Season">
+
+    <title>Red Wings 2022 Game Log</title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="styles/RW_style.css">
+    <link rel="stylesheet" href="styles/RW_gamelog.css">
+
+    <link rel="shortcut icon" href="favicon.png">
+</head>
+
+<body>
+    <div id="home"><a href="../index.html"><img src="../home.png" alt="tau image"></a></div>
+    <div class="wrapper">
+        <header>
+            <h1>2021/2022<br>Game Log</h1>
+            <section id="team">
+                <a href="index.html">
+                    <h2>Detroit</h2>
+                    <h3>Red Wings</h3>
+                </a>
+            </section>
+        </header>
+        <nav class="mainnav">
+            <ul>
+                <li><a href="RW_calendar.html">Calendar</a></li>
+                <li><a href="RW_roster.html">Roster</a></li>
+                <li class="active"><a href="RW_gamelog.html">Game Log</a></li>
+                <li><a href="RW_standings.html">Standings</a></li>
+                <li><a href="RW_seasons.html">Previous Seasons</a></li>
+                <li><a href="RW_hockey.html">Hockey Pong</a></li>
+            </ul>
+        </nav>
+
+        <!-- as soon as page is loaded getGames.js will run and  populate the table -->
+        <main>
+            <table  id="currentSeason">
+                <tr>
+                    <th>No</th>
+                    <th>Date</th>
+                    <th colspan="2">Opponent</th>
+                    <th>Score</th>
+                    <th>Record</th>
+                    <th>Points</th>
+                </tr>
+            </table>
+        </main>
+        <footer>
+            <h2 id="RW_mainsite">
+                <a href="https://www.nhl.com/redwings" target="_blank" rel="noreferrer">Official NHL<br/>Red Wings site</a>
+            </h2>
+            <div id="contact_info">
+                <h3>Sherri Sullivan</h3>
+                <p><a href="mailto:sherril.sulli@gmail.com?Subject=RW Game Log">sherril.sulli@gmail.com</a></p>
+                <p><a href="https://www.linkedin.com/in/sherrisullivan/">LinkedIn</a></p>
+                <p>&copy; 2021</p>
+            </div>
+        </footer>
+    </div>  <!-- end wrapper div -->
+
+    <!-- scripts -->
+    <script src="scripts/RW_getGames.js"></script>
+    <script src="scripts/RW_gamelog.js"></script>
+</body>
+
+</html>
