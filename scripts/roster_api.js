@@ -20,9 +20,9 @@ async function getRoster() {
 
         fName = data.roster[i].person.firstName;
         lName = data.roster[i].person.lastName;
-        name = data.roster[i].person.fullName;
+        fullname = data.roster[i].person.fullName;
 
-        if (data.roster[i].person.captian === true) { rank = "C"; }
+        if (data.roster[i].person.captain === true) { rank = "C"; }
         else if (data.roster[i].person.alternateCaptain === true) { rank = "A"; }
 
         rookie = data.roster[i].person.rookie;
@@ -73,14 +73,12 @@ async function getRoster() {
             losses = (playerStats.stats[0].splits[0].stat.losses) ? playerStats.stats[0].splits[0].stat.losses : 0;
             savePerc = (playerStats.stats[0].splits[0].stat.savePercentage) ? playerStats.stats[0].splits[0].stat.savePercentage : 0;
             shutouts = (playerStats.stats[0].splits[0].stat.shutouts) ? playerStats.stats[0].splits[0].stat.shutouts : 0;
-            goalieStats = {
-                games: games,
-                starts: starts,
-                wins: wins,
-                losses: losses,
-                savePerc: savePerc,
-                shutouts: shutouts
-            };
+            goalieStats.games = games;
+            goalieStats.starts = starts;
+            goalieStats.wins = wins;
+            goalieStats.losses = losses;
+            goalieStats.savePerc = savePerc;
+            goalieStats.shutouts = shutouts;
         } else {
             games = (playerStats.stats[0].splits[0].stat.games) ? playerStats.stats[0].splits[0].stat.games : 0;
             goals = (playerStats.stats[0].splits[0].stat.goals) ? playerStats.stats[0].splits[0].stat.goals : 0;
@@ -108,7 +106,7 @@ async function getRoster() {
             nmbr: nmbr,
             fName: fName,
             lName: lName,
-            name: name,
+            fullname: fullname,
             rank: rank,
             rookie: rookie,
             position: position,
@@ -168,7 +166,7 @@ function makeCards() {
                 "<p>Plus / Minus: " + RWroster[i].stats.plusMinus + "</p>" +
                 "<p>Hits: " + RWroster[i].stats.hits + "</p>";
         }
-        flip_back.innerHTML += "<h2>" + RWroster[i].name + "</h2>" +
+        flip_back.innerHTML += "<h2>" + RWroster[i].fullname + "</h2>" +
             "<p>Age: " + RWroster[i].age + "</p>" +
             "<p>Ht: " + RWroster[i].ht + ", Wt: " + RWroster[i].wt + "</p>" +
             "<p>Shoots: " + RWroster[i].shoots + "</p>" +
