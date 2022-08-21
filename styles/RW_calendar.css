@@ -69,6 +69,8 @@
   display: grid;
   grid-template-columns: repeat(7, 14.28%);
   margin: auto;
+  background-color: var(--ice);
+  border: 2px solid var(--stanley);
 }
 
 .dates > div {
@@ -95,9 +97,9 @@ div + p {
   padding-top: 20px;
 }
 
-/* p.points {
+p.points {
   display: none;
-} */
+}
 
 .win::before, .win::after {
   content: '';
@@ -121,18 +123,22 @@ div + p {
   font-size: smaller;
 }
 
-.home {
-  border: 1px solid var(--WingsRed);
-  border-bottom: 15px solid #c8102e;
-  border-bottom: 15px solid var(--WingsRed);
+.home,  .away {
+  width: 90%;
+  margin: auto;
+  border: 1px solid #333;
+  border-bottom: 15px solid #333;
   border-radius: 20%;
 }
 
+.home {
+  border-color: #c8102e;
+  border-color: var(--WingsRed);
+}
+
 .away {
-  border: 1px solid var(--RallyAl);
-  border-bottom: 15px solid #7251aa;
-  border-bottom: 15px solid var(--RallyAl);
-  border-radius: 20%;
+  border-color: #7251aa;
+  border-color: var(--RallyAl);
 }
 
 .pre {
