@@ -1,4 +1,4 @@
-/**** Points Scripts for 2022 Red Wings site ****/
+/**** Points Scripts for 2023/24 Red Wings site ****/
 /*** feeds standings ***/
 
 window.onload = getPoints;
@@ -8,7 +8,7 @@ let teamid, teampoints, maxPts = 20, minPts = 10;
 let points = {};
 
 function getPoints() {
-	fetch('https://statsapi.web.nhl.com/api/v1/standings?season=20222023')
+	fetch('https://statsapi.web.nhl.com/api/v1/standings?season=20232024')
 	.then((results) => results.json())
 	.then((data) => {
 		for (let i = 0, l = data.records.length; i < l; i++) { // division level

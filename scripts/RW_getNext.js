@@ -18,7 +18,7 @@ function getGame() {
 	let nextVenue;
 
 	// get the next RW game from the api
-	fetch('https://statsapi.web.nhl.com/api/v1/teams/17?expand=team.schedule.next&season=20222023')
+	fetch('https://statsapi.web.nhl.com/api/v1/teams/17?expand=team.schedule.next&season=20232024')
 	.then(results => {
 		if (results.ok) {
 			return results.json();
@@ -91,7 +91,7 @@ function getGame() {
 	.catch(error => console.log('no next game date available'));
 
 	// get the results of the previous game
-	fetch('https://statsapi.web.nhl.com/api/v1/teams/17?expand=team.schedule.previous&season=20222023')
+	fetch('https://statsapi.web.nhl.com/api/v1/teams/17?expand=team.schedule.previous&season=20232024')
 	.then(results => {
 		if (results.ok) {
 			return results.json();
