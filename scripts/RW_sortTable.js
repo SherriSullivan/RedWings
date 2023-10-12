@@ -1,6 +1,6 @@
-/* specific to RW_Standings table since points are buried in the meter element in the second column and are numeric */
-/* improve someday by making a generic sort function and passing in correct variables, or other solution */
-//window.addEventListener('load', function() {sortTable('pointsTable', 'desc', 1);}, false);
+/* specific to RW_Standings table - wanting to understand sort function so did long form
+/* TODO - switch to generic sort function  */
+/* old data - preserving memory right here - window.addEventListener('load', function() {sortTable('pointsTable', 'desc', 1);}, false); */
 function sortTable(table, d, n) {
     table = document.getElementById(table);
     let dir = d ? d : "asc";

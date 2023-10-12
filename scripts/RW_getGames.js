@@ -1,4 +1,4 @@
-/**** getGames Scripts for 2022 Red Wings site ****/
+/**** getGames Scripts for 2023/24 Red Wings site ****/
 /*** feeds calendar and gamelog ***/
 
 //create an array of game info to be accessed by gameLog and calendar
@@ -54,7 +54,7 @@ function teamAbbr(id) {
 
 
 function getGames(callback) {
-	fetch('https://statsapi.web.nhl.com/api/v1/schedule?teamId=17&season=20222023')
+	fetch('https://statsapi.web.nhl.com/api/v1/schedule?teamId=17&season=20232024')
 	.then((results) => results.json())
 	.then((data) => {
 		let gameNo = 0;

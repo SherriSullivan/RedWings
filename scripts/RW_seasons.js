@@ -3,7 +3,7 @@
 /*** feeds seasons ***/
 
 window.onload = function () { years.reset(); };
-window.onload = function() { createTable(2022); };
+window.onload = function() { createTable(2023); };
 
 // The table looks like this:
 //  rows are [i], columns are [j]
@@ -86,7 +86,7 @@ function sortTable(tbl, dir, year) {
     let table = document.querySelector('#' + tbl);
 
     // change year to column number
-    n = 2023 - year;
+    n = 2024 - year;
 
     // switching is true until the table is completely sorted
     switching = true;

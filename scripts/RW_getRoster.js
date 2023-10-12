@@ -1,4 +1,4 @@
-/**** Roster Script for 2023 Red Wings site ****/
+/**** Roster Script for 2023/24 Red Wings site ****/
 
 // create an array to hold the Red Wings roster
 var RWroster = [];

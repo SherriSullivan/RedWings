@@ -1,0 +1,1616 @@
+{
+    "copyright" : "NHL and the NHL Shield are registered trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams. © NHL 2023. All Rights Reserved.",
+    "roster" : [ {
+      "person" : {
+        "id" : 8479992,
+        "fullName" : "Michael Rasmussen",
+        "link" : "/api/v1/people/8479992",
+        "firstName" : "Michael",
+        "lastName" : "Rasmussen",
+        "primaryNumber" : "27",
+        "birthDate" : "1999-04-17",
+        "currentAge" : 24,
+        "birthCity" : "Surrey",
+        "birthStateProvince" : "BC",
+        "birthCountry" : "CAN",
+        "nationality" : "CAN",
+        "height" : "6' 6\"",
+        "weight" : 211,
+        "active" : true,
+        "alternateCaptain" : false,
+        "captain" : false,
+        "rookie" : false,
+        "shootsCatches" : "L",
+        "rosterStatus" : "I",
+        "currentTeam" : {
+          "id" : 17,
+          "name" : "Detroit Red Wings",
+          "link" : "/api/v1/teams/17"
+        },
+        "primaryPosition" : {
+          "code" : "C",
+          "name" : "Center",
+          "type" : "Forward",
+          "abbreviation" : "C"
+        }
+      },
+      "jerseyNumber" : "27",
+      "position" : {
+        "code" : "C",
+        "name" : "Center",
+        "type" : "Forward",
+        "abbreviation" : "C"
+      }
+    }, {
+      "person" : {
+        "id" : 8473503,
+        "fullName" : "James Reimer",
+        "link" : "/api/v1/people/8473503",
+        "firstName" : "James",
+        "lastName" : "Reimer",
+        "primaryNumber" : "47",
+        "birthDate" : "1988-03-15",
+        "currentAge" : 35,
+        "birthCity" : "Morweena",
+        "birthStateProvince" : "MB",
+        "birthCountry" : "CAN",
+        "nationality" : "CAN",
+        "height" : "6' 3\"",
+        "weight" : 205,
+        "active" : true,
+        "alternateCaptain" : false,
+        "captain" : false,
+        "rookie" : false,
+        "shootsCatches" : "L",
+        "rosterStatus" : "Y",
+        "currentTeam" : {
+          "id" : 17,
+          "name" : "Detroit Red Wings",
+          "link" : "/api/v1/teams/17"
+        },
+        "primaryPosition" : {
+          "code" : "G",
+          "name" : "Goalie",
+          "type" : "Goalie",
+          "abbreviation" : "G"
+        }
+      },
+      "jerseyNumber" : "47",
+      "position" : {
+        "code" : "G",
+        "name" : "Goalie",
+        "type" : "Goalie",
+        "abbreviation" : "G"
+      }
+    }, {
+      "person" : {
+        "id" : 8473507,
+        "fullName" : "Jeff Petry",
+        "link" : "/api/v1/people/8473507",
+        "firstName" : "Jeff",
+        "lastName" : "Petry",
+        "primaryNumber" : "26",
+        "birthDate" : "1987-12-09",
+        "currentAge" : 35,
+        "birthCity" : "Ann Arbor",
+        "birthStateProvince" : "MI",
+        "birthCountry" : "USA",
+        "nationality" : "USA",
+        "height" : "6' 3\"",
+        "weight" : 209,
+        "active" : true,
+        "alternateCaptain" : false,
+        "captain" : false,
+        "rookie" : false,
+        "shootsCatches" : "R",
+        "rosterStatus" : "Y",
+        "currentTeam" : {
+          "id" : 17,
+          "name" : "Detroit Red Wings",
+          "link" : "/api/v1/teams/17"
+        },
+        "primaryPosition" : {
+          "code" : "D",
+          "name" : "Defenseman",
+          "type" : "Defenseman",
+          "abbreviation" : "D"
+        }
+      },
+      "jerseyNumber" : "26",
+      "position" : {
+        "code" : "D",
+        "name" : "Defenseman",
+        "type" : "Defenseman",
+        "abbreviation" : "D"
+      }
+    }, {
+      "person" : {
+        "id" : 8474102,
+        "fullName" : "David Perron",
+        "link" : "/api/v1/people/8474102",
+        "firstName" : "David",
+        "lastName" : "Perron",
+        "primaryNumber" : "57",
+        "birthDate" : "1988-05-28",
+        "currentAge" : 35,
+        "birthCity" : "Sherbrooke",
+        "birthStateProvince" : "QC",
+        "birthCountry" : "CAN",
+        "nationality" : "CAN",
+        "height" : "6' 1\"",
+        "weight" : 196,
+        "active" : true,
+        "alternateCaptain" : false,
+        "captain" : false,
+        "rookie" : false,
+        "shootsCatches" : "R",
+        "rosterStatus" : "Y",
+        "currentTeam" : {
+          "id" : 17,
+          "name" : "Detroit Red Wings",
+          "link" : "/api/v1/teams/17"
+        },
+        "primaryPosition" : {
+          "code" : "L",
+          "name" : "Left Wing",
+          "type" : "Forward",
+          "abbreviation" : "LW"
+        }
+      },
+      "jerseyNumber" : "57",
+      "position" : {
+        "code" : "L",
+        "name" : "Left Wing",
+        "type" : "Forward",
+        "abbreviation" : "LW"
+      }
+    }, {
+      "person" : {
+        "id" : 8475279,
+        "fullName" : "Ben Chiarot",
+        "link" : "/api/v1/people/8475279",
+        "firstName" : "Ben",
+        "lastName" : "Chiarot",
+        "primaryNumber" : "8",
+        "birthDate" : "1991-05-09",
+        "currentAge" : 32,
+        "birthCity" : "Hamilton",
+        "birthStateProvince" : "ON",
+        "birthCountry" : "CAN",
+        "nationality" : "CAN",
+        "height" : "6' 3\"",
+        "weight" : 232,
+        "active" : true,
+        "alternateCaptain" : false,
+        "captain" : false,
+        "rookie" : false,
+        "shootsCatches" : "L",
+        "rosterStatus" : "Y",
+        "currentTeam" : {
+          "id" : 17,
+          "name" : "Detroit Red Wings",
+          "link" : "/api/v1/teams/17"
+        },
+        "primaryPosition" : {
+          "code" : "D",
+          "name" : "Defenseman",
+          "type" : "Defenseman",
+          "abbreviation" : "D"
+        }
+      },
+      "jerseyNumber" : "8",
+      "position" : {
+        "code" : "D",
+        "name" : "Defenseman",
+        "type" : "Defenseman",
+        "abbreviation" : "D"
+      }
+    }, {
+      "person" : {
+        "id" : 8475718,
+        "fullName" : "Justin Holl",
+        "link" : "/api/v1/people/8475718",
+        "firstName" : "Justin",
+        "lastName" : "Holl",
+        "primaryNumber" : "3",
+        "birthDate" : "1992-01-30",
+        "currentAge" : 31,
+        "birthCity" : "Tonka Bay",
+        "birthStateProvince" : "MN",
+        "birthCountry" : "USA",
+        "nationality" : "USA",
+        "height" : "6' 3\"",
+        "weight" : 197,
+        "active" : true,
+        "alternateCaptain" : false,
+        "captain" : false,
+        "rookie" : false,
+        "shootsCatches" : "R",
+        "rosterStatus" : "Y",
+        "currentTeam" : {
+          "id" : 17,
+          "name" : "Detroit Red Wings",
+          "link" : "/api/v1/teams/17"
+        },
+        "primaryPosition" : {
+          "code" : "D",
+          "name" : "Defenseman",
+          "type" : "Defenseman",
+          "abbreviation" : "D"
+        }
+      },
+      "jerseyNumber" : "3",
+      "position" : {
+        "code" : "D",
+        "name" : "Defenseman",
+        "type" : "Defenseman",
+        "abbreviation" : "D"
+      }
+    }, {
+      "person" : {
+        "id" : 8476874,
+        "fullName" : "Olli Maatta",
+        "link" : "/api/v1/people/8476874",
+        "firstName" : "Olli",
+        "lastName" : "Maatta",
+        "primaryNumber" : "2",
+        "birthDate" : "1994-08-22",
+        "currentAge" : 29,
+        "birthCity" : "Jyväskylä",
+        "birthCountry" : "FIN",
+        "nationality" : "FIN",
+        "height" : "6' 2\"",
+        "weight" : 207,
+        "active" : true,
+        "alternateCaptain" : false,
+        "captain" : false,
+        "rookie" : false,
+        "shootsCatches" : "L",
+        "rosterStatus" : "Y",
+        "currentTeam" : {
+          "id" : 17,
+          "name" : "Detroit Red Wings",
+          "link" : "/api/v1/teams/17"
+        },
+        "primaryPosition" : {
+          "code" : "D",
+          "name" : "Defenseman",
+          "type" : "Defenseman",
+          "abbreviation" : "D"
+        }
+      },
+      "jerseyNumber" : "2",
+      "position" : {
+        "code" : "D",
+        "name" : "Defenseman",
+        "type" : "Defenseman",
+        "abbreviation" : "D"
+      }
+    }, {
+      "person" : {
+        "id" : 8476906,
+        "fullName" : "Shayne Gostisbehere",
+        "link" : "/api/v1/people/8476906",
+        "firstName" : "Shayne",
+        "lastName" : "Gostisbehere",
+        "primaryNumber" : "41",
+        "birthDate" : "1993-04-20",
+        "currentAge" : 30,
+        "birthCity" : "Pembroke Pines",
+        "birthStateProvince" : "FL",
+        "birthCountry" : "USA",
+        "nationality" : "USA",
+        "height" : "5' 11\"",
+        "weight" : 180,
+        "active" : true,
+        "alternateCaptain" : false,
+        "captain" : false,
+        "rookie" : false,
+        "shootsCatches" : "L",
+        "rosterStatus" : "Y",
+        "currentTeam" : {
+          "id" : 17,
+          "name" : "Detroit Red Wings",
+          "link" : "/api/v1/teams/17"
+        },
+        "primaryPosition" : {
+          "code" : "D",
+          "name" : "Defenseman",
+          "type" : "Defenseman",
+          "abbreviation" : "D"
+        }
+      },
+      "jerseyNumber" : "41",
+      "position" : {
+        "code" : "D",
+        "name" : "Defenseman",
+        "type" : "Defenseman",
+        "abbreviation" : "D"
+      }
+    }, {
+      "person" : {
+        "id" : 8477429,
+        "fullName" : "Andrew Copp",
+        "link" : "/api/v1/people/8477429",
+        "firstName" : "Andrew",
+        "lastName" : "Copp",
+        "primaryNumber" : "18",
+        "birthDate" : "1994-07-08",
+        "currentAge" : 29,
+        "birthCity" : "Ann Arbor",
+        "birthStateProvince" : "MI",
+        "birthCountry" : "USA",
+        "nationality" : "USA",
+        "height" : "6' 1\"",
+        "weight" : 199,
+        "active" : true,
+        "alternateCaptain" : false,
+        "captain" : false,
+        "rookie" : false,
+        "shootsCatches" : "L",
+        "rosterStatus" : "Y",
+        "currentTeam" : {
+          "id" : 17,
+          "name" : "Detroit Red Wings",
+          "link" : "/api/v1/teams/17"
+        },
+        "primaryPosition" : {
+          "code" : "C",
+          "name" : "Center",
+          "type" : "Forward",
+          "abbreviation" : "C"
+        }
+      },
+      "jerseyNumber" : "18",
+      "position" : {
+        "code" : "C",
+        "name" : "Center",
+        "type" : "Forward",
+        "abbreviation" : "C"
+      }
+    }, {
+      "person" : {
+        "id" : 8477456,
+        "fullName" : "J.T. Compher",
+        "link" : "/api/v1/people/8477456",
+        "firstName" : "J.T.",
+        "lastName" : "Compher",
+        "primaryNumber" : "37",
+        "birthDate" : "1995-04-08",
+        "currentAge" : 28,
+        "birthCity" : "Northbrook",
+        "birthStateProvince" : "IL",
+        "birthCountry" : "USA",
+        "nationality" : "USA",
+        "height" : "6' 0\"",
+        "weight" : 190,
+        "active" : true,
+        "alternateCaptain" : false,
+        "captain" : false,
+        "rookie" : false,
+        "shootsCatches" : "R",
+        "rosterStatus" : "Y",
+        "currentTeam" : {
+          "id" : 17,
+          "name" : "Detroit Red Wings",
+          "link" : "/api/v1/teams/17"
+        },
+        "primaryPosition" : {
+          "code" : "L",
+          "name" : "Left Wing",
+          "type" : "Forward",
+          "abbreviation" : "LW"
+        }
+      },
+      "jerseyNumber" : "37",
+      "position" : {
+        "code" : "L",
+        "name" : "Left Wing",
+        "type" : "Forward",
+        "abbreviation" : "LW"
+      }
+    }, {
+      "person" : {
+        "id" : 8477946,
+        "fullName" : "Dylan Larkin",
+        "link" : "/api/v1/people/8477946",
+        "firstName" : "Dylan",
+        "lastName" : "Larkin",
+        "primaryNumber" : "71",
+        "birthDate" : "1996-07-30",
+        "currentAge" : 27,
+        "birthCity" : "Waterford",
+        "birthStateProvince" : "MI",
+        "birthCountry" : "USA",
+        "nationality" : "USA",
+        "height" : "6' 1\"",
+        "weight" : 198,
+        "active" : true,
+        "alternateCaptain" : false,
+        "captain" : true,
+        "rookie" : false,
+        "shootsCatches" : "L",
+        "rosterStatus" : "Y",
+        "currentTeam" : {
+          "id" : 17,
+          "name" : "Detroit Red Wings",
+          "link" : "/api/v1/teams/17"
+        },
+        "primaryPosition" : {
+          "code" : "C",
+          "name" : "Center",
+          "type" : "Forward",
+          "abbreviation" : "C"
+        }
+      },
+      "jerseyNumber" : "71",
+      "position" : {
+        "code" : "C",
+        "name" : "Center",
+        "type" : "Forward",
+        "abbreviation" : "C"
+      }
+    }, {
+      "person" : {
+        "id" : 8477952,
+        "fullName" : "Robby Fabbri",
+        "link" : "/api/v1/people/8477952",
+        "firstName" : "Robby",
+        "lastName" : "Fabbri",
+        "primaryNumber" : "14",
+        "birthDate" : "1996-01-22",
+        "currentAge" : 27,
+        "birthCity" : "Mississauga",
+        "birthStateProvince" : "ON",
+        "birthCountry" : "CAN",
+        "nationality" : "CAN",
+        "height" : "5' 11\"",
+        "weight" : 185,
+        "active" : true,
+        "alternateCaptain" : false,
+        "captain" : false,
+        "rookie" : false,
+        "shootsCatches" : "L",
+        "rosterStatus" : "Y",
+        "currentTeam" : {
+          "id" : 17,
+          "name" : "Detroit Red Wings",
+          "link" : "/api/v1/teams/17"
+        },
+        "primaryPosition" : {
+          "code" : "C",
+          "name" : "Center",
+          "type" : "Forward",
+          "abbreviation" : "C"
+        }
+      },
+      "jerseyNumber" : "14",
+      "position" : {
+        "code" : "C",
+        "name" : "Center",
+        "type" : "Forward",
+        "abbreviation" : "C"
+      }
+    }, {
+      "person" : {
+        "id" : 8478013,
+        "fullName" : "Jake Walman",
+        "link" : "/api/v1/people/8478013",
+        "firstName" : "Jake",
+        "lastName" : "Walman",
+        "primaryNumber" : "96",
+        "birthDate" : "1996-02-20",
+        "currentAge" : 27,
+        "birthCity" : "Toronto",
+        "birthStateProvince" : "ON",
+        "birthCountry" : "CAN",
+        "nationality" : "CAN",
+        "height" : "6' 2\"",
+        "weight" : 215,
+        "active" : true,
+        "alternateCaptain" : false,
+        "captain" : false,
+        "rookie" : false,
+        "shootsCatches" : "L",
+        "rosterStatus" : "Y",
+        "currentTeam" : {
+          "id" : 17,
+          "name" : "Detroit Red Wings",
+          "link" : "/api/v1/teams/17"
+        },
+        "primaryPosition" : {
+          "code" : "D",
+          "name" : "Defenseman",
+          "type" : "Defenseman",
+          "abbreviation" : "D"
+        }
+      },
+      "jerseyNumber" : "96",
+      "position" : {
+        "code" : "D",
+        "name" : "Defenseman",
+        "type" : "Defenseman",
+        "abbreviation" : "D"
+      }
+    }, {
+      "person" : {
+        "id" : 8478024,
+        "fullName" : "Ville Husso",
+        "link" : "/api/v1/people/8478024",
+        "firstName" : "Ville",
+        "lastName" : "Husso",
+        "primaryNumber" : "35",
+        "birthDate" : "1995-02-06",
+        "currentAge" : 28,
+        "birthCity" : "Helsinki",
+        "birthCountry" : "FIN",
+        "nationality" : "FIN",
+        "height" : "6' 3\"",
+        "weight" : 200,
+        "active" : true,
+        "alternateCaptain" : false,
+        "captain" : false,
+        "rookie" : false,
+        "shootsCatches" : "L",
+        "rosterStatus" : "Y",
+        "currentTeam" : {
+          "id" : 17,
+          "name" : "Detroit Red Wings",
+          "link" : "/api/v1/teams/17"
+        },
+        "primaryPosition" : {
+          "code" : "G",
+          "name" : "Goalie",
+          "type" : "Goalie",
+          "abbreviation" : "G"
+        }
+      },
+      "jerseyNumber" : "35",
+      "position" : {
+        "code" : "G",
+        "name" : "Goalie",
+        "type" : "Goalie",
+        "abbreviation" : "G"
+      }
+    }, {
+      "person" : {
+        "id" : 8478432,
+        "fullName" : "Christian Fischer",
+        "link" : "/api/v1/people/8478432",
+        "firstName" : "Christian",
+        "lastName" : "Fischer",
+        "primaryNumber" : "36",
+        "birthDate" : "1997-04-15",
+        "currentAge" : 26,
+        "birthCity" : "Chicago",
+        "birthStateProvince" : "IL",
+        "birthCountry" : "USA",
+        "nationality" : "USA",
+        "height" : "6' 2\"",
+        "weight" : 212,
+        "active" : true,
+        "alternateCaptain" : false,
+        "captain" : false,
+        "rookie" : false,
+        "shootsCatches" : "R",
+        "rosterStatus" : "Y",
+        "currentTeam" : {
+          "id" : 17,
+          "name" : "Detroit Red Wings",
+          "link" : "/api/v1/teams/17"
+        },
+        "primaryPosition" : {
+          "code" : "R",
+          "name" : "Right Wing",
+          "type" : "Forward",
+          "abbreviation" : "RW"
+        }
+      },
+      "jerseyNumber" : "36",
+      "position" : {
+        "code" : "R",
+        "name" : "Right Wing",
+        "type" : "Forward",
+        "abbreviation" : "RW"
+      }
+    }, {
+      "person" : {
+        "id" : 8478466,
+        "fullName" : "Daniel Sprong",
+        "link" : "/api/v1/people/8478466",
+        "firstName" : "Daniel",
+        "lastName" : "Sprong",
+        "primaryNumber" : "88",
+        "birthDate" : "1997-03-17",
+        "currentAge" : 26,
+        "birthCity" : "Amsterdam",
+        "birthCountry" : "NLD",
+        "nationality" : "NLD",
+        "height" : "6' 0\"",
+        "weight" : 202,
+        "active" : true,
+        "alternateCaptain" : false,
+        "captain" : false,
+        "rookie" : false,
+        "shootsCatches" : "R",
+        "rosterStatus" : "Y",
+        "currentTeam" : {
+          "id" : 17,
+          "name" : "Detroit Red Wings",
+          "link" : "/api/v1/teams/17"
+        },
+        "primaryPosition" : {
+          "code" : "R",
+          "name" : "Right Wing",
+          "type" : "Forward",
+          "abbreviation" : "RW"
+        }
+      },
+      "jerseyNumber" : "88",
+      "position" : {
+        "code" : "R",
+        "name" : "Right Wing",
+        "type" : "Forward",
+        "abbreviation" : "RW"
+      }
+    }, {
+      "person" : {
+        "id" : 8478512,
+        "fullName" : "Austin Czarnik",
+        "link" : "/api/v1/people/8478512",
+        "firstName" : "Austin",
+        "lastName" : "Czarnik",
+        "primaryNumber" : "21",
+        "birthDate" : "1992-12-12",
+        "currentAge" : 30,
+        "birthCity" : "Detroit",
+        "birthStateProvince" : "MI",
+        "birthCountry" : "USA",
+        "nationality" : "USA",
+        "height" : "5' 9\"",
+        "weight" : 170,
+        "active" : true,
+        "alternateCaptain" : false,
+        "captain" : false,
+        "rookie" : false,
+        "shootsCatches" : "R",
+        "rosterStatus" : "Y",
+        "currentTeam" : {
+          "id" : 17,
+          "name" : "Detroit Red Wings",
+          "link" : "/api/v1/teams/17"
+        },
+        "primaryPosition" : {
+          "code" : "C",
+          "name" : "Center",
+          "type" : "Forward",
+          "abbreviation" : "C"
+        }
+      },
+      "jerseyNumber" : "21",
+      "position" : {
+        "code" : "C",
+        "name" : "Center",
+        "type" : "Forward",
+        "abbreviation" : "C"
+      }
+    }, {
+      "person" : {
+        "id" : 8479312,
+        "fullName" : "Alex Lyon",
+        "link" : "/api/v1/people/8479312",
+        "firstName" : "Alex",
+        "lastName" : "Lyon",
+        "primaryNumber" : "34",
+        "birthDate" : "1992-12-09",
+        "currentAge" : 30,
+        "birthCity" : "Baudette",
+        "birthStateProvince" : "MN",
+        "birthCountry" : "USA",
+        "nationality" : "USA",
+        "height" : "6' 1\"",
+        "weight" : 201,
+        "active" : true,
+        "alternateCaptain" : false,
+        "captain" : false,
+        "rookie" : false,
+        "shootsCatches" : "L",
+        "rosterStatus" : "Y",
+        "currentTeam" : {
+          "id" : 17,
+          "name" : "Detroit Red Wings",
+          "link" : "/api/v1/teams/17"
+        },
+        "primaryPosition" : {
+          "code" : "G",
+          "name" : "Goalie",
+          "type" : "Goalie",
+          "abbreviation" : "G"
+        }
+      },
+      "jerseyNumber" : "34",
+      "position" : {
+        "code" : "G",
+        "name" : "Goalie",
+        "type" : "Goalie",
+        "abbreviation" : "G"
+      }
+    }, {
+      "person" : {
+        "id" : 8479337,
+        "fullName" : "Alex DeBrincat",
+        "link" : "/api/v1/people/8479337",
+        "firstName" : "Alex",
+        "lastName" : "DeBrincat",
+        "primaryNumber" : "93",
+        "birthDate" : "1997-12-18",
+        "currentAge" : 25,
+        "birthCity" : "Farmington Hills",
+        "birthStateProvince" : "MI",
+        "birthCountry" : "USA",
+        "nationality" : "USA",
+        "height" : "5' 8\"",
+        "weight" : 178,
+        "active" : true,
+        "alternateCaptain" : false,
+        "captain" : false,
+        "rookie" : false,
+        "shootsCatches" : "R",
+        "rosterStatus" : "Y",
+        "currentTeam" : {
+          "id" : 17,
+          "name" : "Detroit Red Wings",
+          "link" : "/api/v1/teams/17"
+        },
+        "primaryPosition" : {
+          "code" : "R",
+          "name" : "Right Wing",
+          "type" : "Forward",
+          "abbreviation" : "RW"
+        }
+      },
+      "jerseyNumber" : "93",
+      "position" : {
+        "code" : "R",
+        "name" : "Right Wing",
+        "type" : "Forward",
+        "abbreviation" : "RW"
+      }
+    }, {
+      "person" : {
+        "id" : 8479364,
+        "fullName" : "Tim Gettinger",
+        "link" : "/api/v1/people/8479364",
+        "firstName" : "Tim",
+        "lastName" : "Gettinger",
+        "primaryNumber" : "39",
+        "birthDate" : "1998-04-14",
+        "currentAge" : 25,
+        "birthCity" : "Cleveland",
+        "birthStateProvince" : "OH",
+        "birthCountry" : "USA",
+        "nationality" : "USA",
+        "height" : "6' 6\"",
+        "weight" : 222,
+        "active" : true,
+        "alternateCaptain" : false,
+        "captain" : false,
+        "rookie" : true,
+        "shootsCatches" : "L",
+        "rosterStatus" : "Y",
+        "currentTeam" : {
+          "id" : 17,
+          "name" : "Detroit Red Wings",
+          "link" : "/api/v1/teams/17"
+        },
+        "primaryPosition" : {
+          "code" : "L",
+          "name" : "Left Wing",
+          "type" : "Forward",
+          "abbreviation" : "LW"
+        }
+      },
+      "jerseyNumber" : "39",
+      "position" : {
+        "code" : "L",
+        "name" : "Left Wing",
+        "type" : "Forward",
+        "abbreviation" : "LW"
+      }
+    }, {
+      "person" : {
+        "id" : 8479588,
+        "fullName" : "Nolan Stevens",
+        "link" : "/api/v1/people/8479588",
+        "firstName" : "Nolan",
+        "lastName" : "Stevens",
+        "birthDate" : "1996-07-22",
+        "currentAge" : 27,
+        "birthCity" : "Brantford",
+        "birthStateProvince" : "ON",
+        "birthCountry" : "CAN",
+        "nationality" : "CAN",
+        "height" : "6' 3\"",
+        "weight" : 190,
+        "active" : true,
+        "alternateCaptain" : false,
+        "captain" : false,
+        "rookie" : false,
+        "shootsCatches" : "L",
+        "rosterStatus" : "Y",
+        "currentTeam" : {
+          "id" : 17,
+          "name" : "Detroit Red Wings",
+          "link" : "/api/v1/teams/17"
+        },
+        "primaryPosition" : {
+          "code" : "C",
+          "name" : "Center",
+          "type" : "Forward",
+          "abbreviation" : "C"
+        }
+      },
+      "position" : {
+        "code" : "C",
+        "name" : "Center",
+        "type" : "Forward",
+        "abbreviation" : "C"
+      }
+    }, {
+      "person" : {
+        "id" : 8479644,
+        "fullName" : "Matt Luff",
+        "link" : "/api/v1/people/8479644",
+        "firstName" : "Matt",
+        "lastName" : "Luff",
+        "primaryNumber" : "22",
+        "birthDate" : "1997-05-05",
+        "currentAge" : 26,
+        "birthCity" : "Oakville",
+        "birthStateProvince" : "ON",
+        "birthCountry" : "CAN",
+        "nationality" : "CAN",
+        "height" : "6' 2\"",
+        "weight" : 196,
+        "active" : true,
+        "alternateCaptain" : false,
+        "captain" : false,
+        "rookie" : false,
+        "shootsCatches" : "R",
+        "rosterStatus" : "Y",
+        "currentTeam" : {
+          "id" : 17,
+          "name" : "Detroit Red Wings",
+          "link" : "/api/v1/teams/17"
+        },
+        "primaryPosition" : {
+          "code" : "R",
+          "name" : "Right Wing",
+          "type" : "Forward",
+          "abbreviation" : "RW"
+        }
+      },
+      "jerseyNumber" : "22",
+      "position" : {
+        "code" : "R",
+        "name" : "Right Wing",
+        "type" : "Forward",
+        "abbreviation" : "RW"
+      }
+    }, {
+      "person" : {
+        "id" : 8480011,
+        "fullName" : "Klim Kostin",
+        "link" : "/api/v1/people/8480011",
+        "firstName" : "Klim",
+        "lastName" : "Kostin",
+        "primaryNumber" : "24",
+        "birthDate" : "1999-05-05",
+        "currentAge" : 24,
+        "birthCity" : "Penza",
+        "birthCountry" : "RUS",
+        "nationality" : "RUS",
+        "height" : "6' 3\"",
+        "weight" : 215,
+        "active" : true,
+        "alternateCaptain" : false,
+        "captain" : false,
+        "rookie" : false,
+        "shootsCatches" : "L",
+        "rosterStatus" : "Y",
+        "currentTeam" : {
+          "id" : 17,
+          "name" : "Detroit Red Wings",
+          "link" : "/api/v1/teams/17"
+        },
+        "primaryPosition" : {
+          "code" : "C",
+          "name" : "Center",
+          "type" : "Forward",
+          "abbreviation" : "C"
+        }
+      },
+      "jerseyNumber" : "24",
+      "position" : {
+        "code" : "C",
+        "name" : "Center",
+        "type" : "Forward",
+        "abbreviation" : "C"
+      }
+    }, {
+      "person" : {
+        "id" : 8480813,
+        "fullName" : "Joe Veleno",
+        "link" : "/api/v1/people/8480813",
+        "firstName" : "Joe",
+        "lastName" : "Veleno",
+        "primaryNumber" : "90",
+        "birthDate" : "2000-01-13",
+        "currentAge" : 23,
+        "birthCity" : "Montréal",
+        "birthStateProvince" : "QC",
+        "birthCountry" : "CAN",
+        "nationality" : "CAN",
+        "height" : "6' 1\"",
+        "weight" : 203,
+        "active" : true,
+        "alternateCaptain" : false,
+        "captain" : false,
+        "rookie" : false,
+        "shootsCatches" : "L",
+        "rosterStatus" : "Y",
+        "currentTeam" : {
+          "id" : 17,
+          "name" : "Detroit Red Wings",
+          "link" : "/api/v1/teams/17"
+        },
+        "primaryPosition" : {
+          "code" : "C",
+          "name" : "Center",
+          "type" : "Forward",
+          "abbreviation" : "C"
+        }
+      },
+      "jerseyNumber" : "90",
+      "position" : {
+        "code" : "C",
+        "name" : "Center",
+        "type" : "Forward",
+        "abbreviation" : "C"
+      }
+    }, {
+      "person" : {
+        "id" : 8481013,
+        "fullName" : "Jonatan Berggren",
+        "link" : "/api/v1/people/8481013",
+        "firstName" : "Jonatan",
+        "lastName" : "Berggren",
+        "primaryNumber" : "48",
+        "birthDate" : "2000-07-16",
+        "currentAge" : 23,
+        "birthCity" : "Uppsala",
+        "birthCountry" : "SWE",
+        "nationality" : "SWE",
+        "height" : "5' 11\"",
+        "weight" : 197,
+        "active" : true,
+        "alternateCaptain" : false,
+        "captain" : false,
+        "rookie" : true,
+        "shootsCatches" : "L",
+        "rosterStatus" : "Y",
+        "currentTeam" : {
+          "id" : 17,
+          "name" : "Detroit Red Wings",
+          "link" : "/api/v1/teams/17"
+        },
+        "primaryPosition" : {
+          "code" : "R",
+          "name" : "Right Wing",
+          "type" : "Forward",
+          "abbreviation" : "RW"
+        }
+      },
+      "jerseyNumber" : "48",
+      "position" : {
+        "code" : "R",
+        "name" : "Right Wing",
+        "type" : "Forward",
+        "abbreviation" : "RW"
+      }
+    }, {
+      "person" : {
+        "id" : 8481479,
+        "fullName" : "Brogan Rafferty",
+        "link" : "/api/v1/people/8481479",
+        "firstName" : "Brogan",
+        "lastName" : "Rafferty",
+        "primaryNumber" : "52",
+        "birthDate" : "1995-05-28",
+        "currentAge" : 28,
+        "birthCity" : "West Dundee",
+        "birthStateProvince" : "IL",
+        "birthCountry" : "USA",
+        "nationality" : "USA",
+        "height" : "6' 0\"",
+        "weight" : 202,
+        "active" : true,
+        "alternateCaptain" : false,
+        "captain" : false,
+        "rookie" : false,
+        "shootsCatches" : "R",
+        "rosterStatus" : "Y",
+        "currentTeam" : {
+          "id" : 17,
+          "name" : "Detroit Red Wings",
+          "link" : "/api/v1/teams/17"
+        },
+        "primaryPosition" : {
+          "code" : "D",
+          "name" : "Defenseman",
+          "type" : "Defenseman",
+          "abbreviation" : "D"
+        }
+      },
+      "jerseyNumber" : "52",
+      "position" : {
+        "code" : "D",
+        "name" : "Defenseman",
+        "type" : "Defenseman",
+        "abbreviation" : "D"
+      }
+    }, {
+      "person" : {
+        "id" : 8481542,
+        "fullName" : "Moritz Seider",
+        "link" : "/api/v1/people/8481542",
+        "firstName" : "Moritz",
+        "lastName" : "Seider",
+        "primaryNumber" : "53",
+        "birthDate" : "2001-04-06",
+        "currentAge" : 22,
+        "birthCity" : "Zell",
+        "birthCountry" : "DEU",
+        "nationality" : "DEU",
+        "height" : "6' 4\"",
+        "weight" : 204,
+        "active" : true,
+        "alternateCaptain" : false,
+        "captain" : false,
+        "rookie" : false,
+        "shootsCatches" : "R",
+        "rosterStatus" : "Y",
+        "currentTeam" : {
+          "id" : 17,
+          "name" : "Detroit Red Wings",
+          "link" : "/api/v1/teams/17"
+        },
+        "primaryPosition" : {
+          "code" : "D",
+          "name" : "Defenseman",
+          "type" : "Defenseman",
+          "abbreviation" : "D"
+        }
+      },
+      "jerseyNumber" : "53",
+      "position" : {
+        "code" : "D",
+        "name" : "Defenseman",
+        "type" : "Defenseman",
+        "abbreviation" : "D"
+      }
+    }, {
+      "person" : {
+        "id" : 8481587,
+        "fullName" : "Antti Tuomisto",
+        "link" : "/api/v1/people/8481587",
+        "firstName" : "Antti",
+        "lastName" : "Tuomisto",
+        "primaryNumber" : "24",
+        "birthDate" : "2001-01-20",
+        "currentAge" : 22,
+        "birthCity" : "Pori",
+        "birthCountry" : "FIN",
+        "nationality" : "FIN",
+        "height" : "6' 4\"",
+        "weight" : 194,
+        "active" : true,
+        "alternateCaptain" : false,
+        "captain" : false,
+        "rookie" : true,
+        "shootsCatches" : "R",
+        "rosterStatus" : "Y",
+        "currentTeam" : {
+          "id" : 17,
+          "name" : "Detroit Red Wings",
+          "link" : "/api/v1/teams/17"
+        },
+        "primaryPosition" : {
+          "code" : "D",
+          "name" : "Defenseman",
+          "type" : "Defenseman",
+          "abbreviation" : "D"
+        }
+      },
+      "jerseyNumber" : "24",
+      "position" : {
+        "code" : "D",
+        "name" : "Defenseman",
+        "type" : "Defenseman",
+        "abbreviation" : "D"
+      }
+    }, {
+      "person" : {
+        "id" : 8481607,
+        "fullName" : "Albert Johansson",
+        "link" : "/api/v1/people/8481607",
+        "firstName" : "Albert",
+        "lastName" : "Johansson",
+        "primaryNumber" : "20",
+        "birthDate" : "2001-01-04",
+        "currentAge" : 22,
+        "birthCity" : "Karlstad",
+        "birthCountry" : "SWE",
+        "nationality" : "SWE",
+        "height" : "6' 0\"",
+        "weight" : 168,
+        "active" : true,
+        "alternateCaptain" : false,
+        "captain" : false,
+        "rookie" : true,
+        "shootsCatches" : "L",
+        "rosterStatus" : "Y",
+        "currentTeam" : {
+          "id" : 17,
+          "name" : "Detroit Red Wings",
+          "link" : "/api/v1/teams/17"
+        },
+        "primaryPosition" : {
+          "code" : "D",
+          "name" : "Defenseman",
+          "type" : "Defenseman",
+          "abbreviation" : "D"
+        }
+      },
+      "jerseyNumber" : "20",
+      "position" : {
+        "code" : "D",
+        "name" : "Defenseman",
+        "type" : "Defenseman",
+        "abbreviation" : "D"
+      }
+    }, {
+      "person" : {
+        "id" : 8481725,
+        "fullName" : "Elmer Soderblom",
+        "link" : "/api/v1/people/8481725",
+        "firstName" : "Elmer",
+        "lastName" : "Soderblom",
+        "primaryNumber" : "85",
+        "birthDate" : "2001-07-05",
+        "currentAge" : 22,
+        "birthCity" : "Gothenburg",
+        "birthCountry" : "SWE",
+        "nationality" : "SWE",
+        "height" : "6' 8\"",
+        "weight" : 246,
+        "active" : true,
+        "alternateCaptain" : false,
+        "captain" : false,
+        "rookie" : true,
+        "shootsCatches" : "L",
+        "rosterStatus" : "Y",
+        "currentTeam" : {
+          "id" : 17,
+          "name" : "Detroit Red Wings",
+          "link" : "/api/v1/teams/17"
+        },
+        "primaryPosition" : {
+          "code" : "L",
+          "name" : "Left Wing",
+          "type" : "Forward",
+          "abbreviation" : "LW"
+        }
+      },
+      "jerseyNumber" : "85",
+      "position" : {
+        "code" : "L",
+        "name" : "Left Wing",
+        "type" : "Forward",
+        "abbreviation" : "LW"
+      }
+    }, {
+      "person" : {
+        "id" : 8482078,
+        "fullName" : "Lucas Raymond",
+        "link" : "/api/v1/people/8482078",
+        "firstName" : "Lucas",
+        "lastName" : "Raymond",
+        "primaryNumber" : "23",
+        "birthDate" : "2002-03-28",
+        "currentAge" : 21,
+        "birthCity" : "Gothenburg",
+        "birthCountry" : "SWE",
+        "nationality" : "SWE",
+        "height" : "5' 11\"",
+        "weight" : 176,
+        "active" : true,
+        "alternateCaptain" : false,
+        "captain" : false,
+        "rookie" : false,
+        "shootsCatches" : "R",
+        "rosterStatus" : "Y",
+        "currentTeam" : {
+          "id" : 17,
+          "name" : "Detroit Red Wings",
+          "link" : "/api/v1/teams/17"
+        },
+        "primaryPosition" : {
+          "code" : "L",
+          "name" : "Left Wing",
+          "type" : "Forward",
+          "abbreviation" : "LW"
+        }
+      },
+      "jerseyNumber" : "23",
+      "position" : {
+        "code" : "L",
+        "name" : "Left Wing",
+        "type" : "Forward",
+        "abbreviation" : "LW"
+      }
+    }, {
+      "person" : {
+        "id" : 8482163,
+        "fullName" : "Eemil Viro",
+        "link" : "/api/v1/people/8482163",
+        "firstName" : "Eemil",
+        "lastName" : "Viro",
+        "primaryNumber" : "51",
+        "birthDate" : "2002-04-03",
+        "currentAge" : 21,
+        "birthCity" : "Vantaa",
+        "birthCountry" : "FIN",
+        "nationality" : "FIN",
+        "height" : "6' 0\"",
+        "weight" : 165,
+        "active" : true,
+        "alternateCaptain" : false,
+        "captain" : false,
+        "rookie" : true,
+        "shootsCatches" : "L",
+        "rosterStatus" : "Y",
+        "currentTeam" : {
+          "id" : 17,
+          "name" : "Detroit Red Wings",
+          "link" : "/api/v1/teams/17"
+        },
+        "primaryPosition" : {
+          "code" : "D",
+          "name" : "Defenseman",
+          "type" : "Defenseman",
+          "abbreviation" : "D"
+        }
+      },
+      "jerseyNumber" : "51",
+      "position" : {
+        "code" : "D",
+        "name" : "Defenseman",
+        "type" : "Defenseman",
+        "abbreviation" : "D"
+      }
+    }, {
+      "person" : {
+        "id" : 8482171,
+        "fullName" : "William Wallinder",
+        "link" : "/api/v1/people/8482171",
+        "firstName" : "William",
+        "lastName" : "Wallinder",
+        "birthDate" : "2002-07-28",
+        "currentAge" : 21,
+        "birthCity" : "Solleftea",
+        "birthCountry" : "SWE",
+        "nationality" : "SWE",
+        "height" : "6' 4\"",
+        "weight" : 191,
+        "active" : true,
+        "alternateCaptain" : false,
+        "captain" : false,
+        "rookie" : true,
+        "shootsCatches" : "L",
+        "rosterStatus" : "Y",
+        "currentTeam" : {
+          "id" : 17,
+          "name" : "Detroit Red Wings",
+          "link" : "/api/v1/teams/17"
+        },
+        "primaryPosition" : {
+          "code" : "D",
+          "name" : "Defenseman",
+          "type" : "Defenseman",
+          "abbreviation" : "D"
+        }
+      },
+      "position" : {
+        "code" : "D",
+        "name" : "Defenseman",
+        "type" : "Defenseman",
+        "abbreviation" : "D"
+      }
+    }, {
+      "person" : {
+        "id" : 8482571,
+        "fullName" : "John Lethemon",
+        "link" : "/api/v1/people/8482571",
+        "firstName" : "John",
+        "lastName" : "Lethemon",
+        "primaryNumber" : "31",
+        "birthDate" : "1996-08-15",
+        "currentAge" : 27,
+        "nationality" : "USA",
+        "active" : true,
+        "alternateCaptain" : false,
+        "captain" : false,
+        "rookie" : false,
+        "shootsCatches" : "L",
+        "rosterStatus" : "Y",
+        "currentTeam" : {
+          "id" : 17,
+          "name" : "Detroit Red Wings",
+          "link" : "/api/v1/teams/17"
+        },
+        "primaryPosition" : {
+          "code" : "G",
+          "name" : "Goalie",
+          "type" : "Goalie",
+          "abbreviation" : "G"
+        }
+      },
+      "jerseyNumber" : "31",
+      "position" : {
+        "code" : "G",
+        "name" : "Goalie",
+        "type" : "Goalie",
+        "abbreviation" : "G"
+      }
+    }, {
+      "person" : {
+        "id" : 8482762,
+        "fullName" : "Simon Edvinsson",
+        "link" : "/api/v1/people/8482762",
+        "firstName" : "Simon",
+        "lastName" : "Edvinsson",
+        "primaryNumber" : "77",
+        "birthDate" : "2003-02-05",
+        "currentAge" : 20,
+        "birthCity" : "Kungsbacka",
+        "birthCountry" : "SWE",
+        "nationality" : "SWE",
+        "height" : "6' 6\"",
+        "weight" : 209,
+        "active" : true,
+        "alternateCaptain" : false,
+        "captain" : false,
+        "rookie" : true,
+        "shootsCatches" : "L",
+        "rosterStatus" : "Y",
+        "currentTeam" : {
+          "id" : 17,
+          "name" : "Detroit Red Wings",
+          "link" : "/api/v1/teams/17"
+        },
+        "primaryPosition" : {
+          "code" : "D",
+          "name" : "Defenseman",
+          "type" : "Defenseman",
+          "abbreviation" : "D"
+        }
+      },
+      "jerseyNumber" : "77",
+      "position" : {
+        "code" : "D",
+        "name" : "Defenseman",
+        "type" : "Defenseman",
+        "abbreviation" : "D"
+      }
+    }, {
+      "person" : {
+        "id" : 8482802,
+        "fullName" : "Carter Mazur",
+        "link" : "/api/v1/people/8482802",
+        "firstName" : "Carter",
+        "lastName" : "Mazur",
+        "primaryNumber" : "32",
+        "birthDate" : "2002-03-28",
+        "currentAge" : 21,
+        "birthCity" : "Jackson",
+        "birthStateProvince" : "MI",
+        "birthCountry" : "USA",
+        "nationality" : "USA",
+        "height" : "6' 0\"",
+        "weight" : 170,
+        "active" : true,
+        "alternateCaptain" : false,
+        "captain" : false,
+        "rookie" : true,
+        "shootsCatches" : "R",
+        "rosterStatus" : "Y",
+        "currentTeam" : {
+          "id" : 17,
+          "name" : "Detroit Red Wings",
+          "link" : "/api/v1/teams/17"
+        },
+        "primaryPosition" : {
+          "code" : "L",
+          "name" : "Left Wing",
+          "type" : "Forward",
+          "abbreviation" : "LW"
+        }
+      },
+      "jerseyNumber" : "32",
+      "position" : {
+        "code" : "L",
+        "name" : "Left Wing",
+        "type" : "Forward",
+        "abbreviation" : "LW"
+      }
+    }, {
+      "person" : {
+        "id" : 8483464,
+        "fullName" : "Marco Kasper",
+        "link" : "/api/v1/people/8483464",
+        "firstName" : "Marco",
+        "lastName" : "Kasper",
+        "primaryNumber" : "92",
+        "birthDate" : "2004-04-08",
+        "currentAge" : 19,
+        "birthCity" : "Innsbruck",
+        "birthCountry" : "AUT",
+        "nationality" : "AUT",
+        "height" : "6' 1\"",
+        "weight" : 183,
+        "active" : true,
+        "alternateCaptain" : false,
+        "captain" : false,
+        "rookie" : true,
+        "shootsCatches" : "L",
+        "rosterStatus" : "Y",
+        "currentTeam" : {
+          "id" : 17,
+          "name" : "Detroit Red Wings",
+          "link" : "/api/v1/teams/17"
+        },
+        "primaryPosition" : {
+          "code" : "C",
+          "name" : "Center",
+          "type" : "Forward",
+          "abbreviation" : "C"
+        }
+      },
+      "jerseyNumber" : "92",
+      "position" : {
+        "code" : "C",
+        "name" : "Center",
+        "type" : "Forward",
+        "abbreviation" : "C"
+      }
+    }, {
+      "person" : {
+        "id" : 8483695,
+        "fullName" : "Amadeus Lombardi",
+        "link" : "/api/v1/people/8483695",
+        "firstName" : "Amadeus",
+        "lastName" : "Lombardi",
+        "birthDate" : "2003-06-05",
+        "currentAge" : 20,
+        "birthCity" : "Newmarket",
+        "birthStateProvince" : "ON",
+        "birthCountry" : "CAN",
+        "height" : "5' 10\"",
+        "weight" : 165,
+        "active" : true,
+        "alternateCaptain" : false,
+        "captain" : false,
+        "rookie" : true,
+        "shootsCatches" : "L",
+        "rosterStatus" : "Y",
+        "currentTeam" : {
+          "id" : 17,
+          "name" : "Detroit Red Wings",
+          "link" : "/api/v1/teams/17"
+        },
+        "primaryPosition" : {
+          "code" : "C",
+          "name" : "Center",
+          "type" : "Forward",
+          "abbreviation" : "C"
+        }
+      },
+      "position" : {
+        "code" : "C",
+        "name" : "Center",
+        "type" : "Forward",
+        "abbreviation" : "C"
+      }
+    }, {
+      "person" : {
+        "id" : 8484107,
+        "fullName" : "Alexandre Doucet",
+        "link" : "/api/v1/people/8484107",
+        "firstName" : "Alexandre",
+        "lastName" : "Doucet",
+        "birthDate" : "2002-01-12",
+        "currentAge" : 21,
+        "birthCity" : "Sherbrooke",
+        "birthStateProvince" : "QC",
+        "birthCountry" : "CAN",
+        "nationality" : "CAN",
+        "height" : "6' 0\"",
+        "weight" : 192,
+        "active" : true,
+        "alternateCaptain" : false,
+        "captain" : false,
+        "rookie" : true,
+        "shootsCatches" : "L",
+        "rosterStatus" : "Y",
+        "currentTeam" : {
+          "id" : 17,
+          "name" : "Detroit Red Wings",
+          "link" : "/api/v1/teams/17"
+        },
+        "primaryPosition" : {
+          "code" : "L",
+          "name" : "Left Wing",
+          "type" : "Forward",
+          "abbreviation" : "LW"
+        }
+      },
+      "position" : {
+        "code" : "L",
+        "name" : "Left Wing",
+        "type" : "Forward",
+        "abbreviation" : "LW"
+      }
+    }, {
+      "person" : {
+        "id" : 8484160,
+        "fullName" : "Nate Danielson",
+        "link" : "/api/v1/people/8484160",
+        "firstName" : "Nate",
+        "lastName" : "Danielson",
+        "birthDate" : "2004-09-27",
+        "currentAge" : 18,
+        "birthCity" : "Edmonton",
+        "birthStateProvince" : "AB",
+        "birthCountry" : "CAN",
+        "nationality" : "CAN",
+        "height" : "6' 2\"",
+        "weight" : 185,
+        "active" : true,
+        "alternateCaptain" : false,
+        "captain" : false,
+        "rookie" : false,
+        "shootsCatches" : "R",
+        "rosterStatus" : "Y",
+        "currentTeam" : {
+          "id" : 17,
+          "name" : "Detroit Red Wings",
+          "link" : "/api/v1/teams/17"
+        },
+        "primaryPosition" : {
+          "code" : "C",
+          "name" : "Center",
+          "type" : "Forward",
+          "abbreviation" : "C"
+        }
+      },
+      "position" : {
+        "code" : "C",
+        "name" : "Center",
+        "type" : "Forward",
+        "abbreviation" : "C"
+      }
+    } ],
+    "link" : "/api/v1/teams/17/roster"
+  }
+  
