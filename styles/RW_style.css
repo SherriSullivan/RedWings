@@ -165,6 +165,16 @@ figcaption {
   color: var(--puck);
 }
 
+.alert_box {
+  width: 90%;
+  margin: 20px auto;
+  background: var(--WingsRed-rgb);
+  border: 3px solid var(--WingsRed);
+  color: var(--WingsRed);
+  text-align: center;
+  transform: skew(-15deg);
+}
+
 /* table styles */
 
 table {
